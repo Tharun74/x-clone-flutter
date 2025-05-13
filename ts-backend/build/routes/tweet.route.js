@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const tweetRouter = (0, express_1.Router)();
+// tweetRouter.get('/:tweetId',getTweetController);
+// tweetRouter.get('/',getAllTweetController);
+// tweetRouter.post('/',createTweetController);
+// tweetRouter.delete('/:tweetId',deleteTweetController);
+// tweetRouter.put('/:tweetId',updateTweetController);
+exports.default = tweetRouter;
